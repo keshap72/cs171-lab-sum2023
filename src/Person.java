@@ -20,12 +20,7 @@ int age;
     //main method
     public static void main(String[] args) {
 
-        //initialize person1
-        int p1age = 20;
-        String p1name = "john"; 
-        String p1family ="sarah, ron, bob";
-
-        Person person1 = new Person(p1name, p1family,p1age);
+        Person person1 = new Person("john", "bob, larry, sara",20);
 
         
     }
